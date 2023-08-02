@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, suscipit accusantium! Quo quod, facere veritatis deleniti, nihil, maxime aut est recusandae repudiandae laboriosam ullam. Quas architecto atque natus laborum provident!</p>
+    
+    <button id="btn1">button 1</button>
+    <button id="btn2">button 2</button>
+    <table id="table1" style="width:100%;display:none">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+      </tr>
+    </table>
+    <table id="table2" style="width:100%;display:none">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+      </tr>
+    </table>
+    
+    <script>
+   
+document.getElementById("btn1").addEventListener("click", function(){
+  document.getElementById("table1").style.display = "block";
+  document.getElementById("table2").style.display = "none";
+});
+document.getElementById("btn2").addEventListener("click", function(){
+  document.getElementById("table2").style.display = "block";
+  document.getElementById("table1").style.display = "none";
+});
+    </script>
+    <hr>
+    <body alink="yellow" link="black"> 
+      <center> 
+          <h1 style="color:green;">
+              GeeksforGeeks
+          </h1> 
+            
+          <h2>HTML <body> alink Attribute</h2> 
+            
+            
+          <a href="#">
+              A computer science portal for geeks
+          </a>
+      </center> 
+  </body> 
+    
+</body>
+</html>
