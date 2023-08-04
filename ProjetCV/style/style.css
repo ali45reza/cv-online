@@ -1,8 +1,9 @@
                                      /* My header */
 body{
-background-image: url(../image/download.jpg);
+    background-color: #9ED2BE;
+ /* background-image: url(../image/download.jpg);
 background-repeat: no-repeat;
-background-size: 100% 100%;
+background-size: 100% 100%; */
 }
 
 .myHeader{
@@ -27,13 +28,14 @@ list-style-type: none;
 
 }
 button{
-    background-color: #c0baba;
+    background-color: #7EAA92;
     border: 1px solid black;
     border-radius: 12px;
     padding: 5px 8px;
     transition-duration: 0.3s;
     cursor: pointer;
     box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, .2);
+    font-family:  'REM', sans-serif;
 }  
 
 button:hover{
@@ -61,23 +63,39 @@ table{
                                                                            /* Table Formation */
 .tableFormation{
 border: 2px dotted blue;
-margin: auto;
+margin-left: 100px;
 margin-top: 200px;
 padding: 10px;
 height: 200px;
 text-align: center;
-width: 80%;
 }
-.tableFormation>td:hover {
+
+.tableFormation>tr:hover {
     background-color: coral;
+    width: 200px;
+}
+td{
+    text-align: left;
+    width: 150px;
+}
+th{
+    text-align: left;
+    width: 200px;
 }
                                                                            /* Table Compétance */
 .com{
-    margin-top: 200px;
+    margin: 200px 20px 10px 20px;
     width: 100%;
+
+}
+.space{
+    height: 28px;
 }
                                                                            /* Table experience */
 .tableExperience{
-    margin-top: 2000px;
+    margin-top: 200px;
 
+}
+#table5{
+    margin-top: 200px;
 }
